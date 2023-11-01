@@ -6,9 +6,6 @@ on:
 name: renderbook
 
 jobs:
-
-
-jobs:
   bookdown:
     name: Render-Book
     runs-on: macOS-latest
