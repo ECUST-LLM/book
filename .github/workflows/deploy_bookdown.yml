@@ -32,7 +32,7 @@ jobs:
    needs: bookdown
    steps:
      - name: Checkout
-       uses: actions/checkout@master
+       uses: actions/checkout@v3
      - name: Download artifact
        uses: actions/download-artifact@v1.0.0
        with:
@@ -41,9 +41,9 @@ jobs:
          # Destination path
          path: _site # optional
      - name: Deploy to GitHub Pages
-       uses: Cecilapp/GitHub-Pages-deploy@master
+       uses: Cecilapp/GitHub-Pages-deploy@v3
        env:
           EMAIL: ${{ secrets.EMAIL }}               # must be a verified email
-          GH_TOKEN: ${{ secrets.GH_PAT }} # https://github.com/settings/tokens
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }} # https://github.com/settings/tokens
           BUILD_DIR: _site/                     # "_site/" by default
     
