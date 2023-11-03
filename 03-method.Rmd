@@ -1,10 +1,9 @@
-# Methods
+# Agent
 
-We describe our methods in this chapter.
+Agent被誉为“大模型下半场”，那他到底是什么呐？
 
-Math can be added in body using usual syntax like this 
-
-## math example
+## 概念介绍
+Agent即带有模仿人类主观能动性的、去主动的、有目的地进行“计划”，“组织”，“实施”，“学习”等直至完成一项工作或一件事情。相比于传统机械或软件被动的“给予输入——>做出输出”的模式，Agent 由于更加强调自主的发现问题、确定目标、构想方案、选择方案、执行方案、检查更新的特性，因此可以被认为是一类拥有“自主智能的实体”，而被广泛称之为智能体。
 
 $p$ is unknown but expected to be around 1/3. Standard error will be approximated
 
